@@ -1,0 +1,3 @@
+class Rhombus
+
+end
