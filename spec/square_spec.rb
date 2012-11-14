@@ -5,7 +5,7 @@ describe Square do
      let(:b) { Poinr.new(2,2) }
      let(:c) { Poinr.new(2,-2) }
      let(:d) { Poinr.new(-2,-2) }
-     let(:q) { Squre.new(a,b,c,d)}
+     let(:q) { Square.new(a,b,c,d)}
 
      it "проверка метода площадь"do
         q.plosh.should == 16.0
