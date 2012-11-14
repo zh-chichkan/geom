@@ -11,7 +11,7 @@ class Poinr
   end  
 
   def dis(other)
-     Math.sqrt((other.x-x)**2+((other.y-y)**2)
+     Math.sqrt((other.x-@x)**2+(other.y-@y)**2)
   end
   
 end
